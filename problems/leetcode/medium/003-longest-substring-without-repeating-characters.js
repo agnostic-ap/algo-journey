@@ -1,4 +1,16 @@
 /**
+ * LeetCode 3. Longest Substring Without Repeating Characters
+ * Difficulty: Medium
+ *
+ * 思路：
+ *  - 使用滑动窗口 / 哈希表记录每个字符上一次出现的位置
+ *  - 当遇到重复字符时，更新左边界，使窗口内始终保持无重复字符
+ *
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(k)，k 为字符集大小
+ */
+
+/**
  * @param {string} s
  * @return {number}
  */
